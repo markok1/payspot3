@@ -1,0 +1,163 @@
+.primary-button {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  a {
+    text-decoration: none;
+    position: relative;
+    padding: 8px 15px;
+    overflow: hidden;
+    text-transform: uppercase;
+    border: 1px solid $primary;
+    background: $primary;
+    font-size: 14px;
+    color: $light;
+    border-radius: 50px;
+    width: 100%;
+    max-width: 300px;
+    letter-spacing: 0px;
+    transition: all ease 0.25s;
+
+    span {
+      z-index: 5;
+      position: relative;
+    }
+  }
+  a:before,
+  a:after {
+    position: absolute;
+    top: 50%;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: $light !important;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  a:before {
+    left: -20px;
+    transform: translate(-50%, -50%);
+  }
+  a:after {
+    right: -20px;
+    transform: translate(50%, -50%);
+  }
+  a:hover {
+    color: $primary;
+    transition: all ease 0.25s;
+    transition-delay: 0.4s;
+  }
+  a:hover:before {
+    -webkit-animation: criss-cross-left 0.8s both;
+    animation: criss-cross-left 0.8s both;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+  }
+  a:hover:after {
+    -webkit-animation: criss-cross-right 0.8s both;
+    animation: criss-cross-right 0.8s both;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+  }
+}
+.primary-button--secondary-color {
+  a {
+    color: $light;
+    border-color: $secondary;
+    background: $secondary;
+  }
+  a:hover {
+    color: $secondary;
+  }
+}
+// .box:hover .primary-button.secundarycolor {
+//   a {
+//     color: $light;
+//     border-color: $light;
+//   }
+//   a:hover {
+//     color: $secondary;
+//   }
+// }
+
+// .primary-button.darkbtn {
+//   a {
+//     color: $primary;
+//     border-color: $primary;
+//   }
+//   a:hover {
+//     color: $secondary;
+//     border-color: #fff;
+//   }
+// }
+// .primary-button.darkbtn a:before,
+// .primary-button.darkbtn a:after {
+//   background-color: $primary !important;
+// }
+// .box:hover .primary-button.darkbtn {
+//   a:hover {
+//     color: $light;
+//   }
+// }
+
+@-webkit-keyframes criss-cross-left {
+  0% {
+    left: -20px;
+  }
+  50% {
+    left: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  100% {
+    left: 50%;
+    width: 375px;
+    height: 375px;
+  }
+}
+
+@keyframes criss-cross-left {
+  0% {
+    left: -20px;
+  }
+  50% {
+    left: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  100% {
+    left: 50%;
+    width: 375px;
+    height: 375px;
+  }
+}
+@-webkit-keyframes criss-cross-right {
+  0% {
+    right: -20px;
+  }
+  50% {
+    right: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  100% {
+    right: 50%;
+    width: 375px;
+    height: 375px;
+  }
+}
+@keyframes criss-cross-right {
+  0% {
+    right: -20px;
+  }
+  50% {
+    right: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  100% {
+    right: 50%;
+    width: 375px;
+    height: 375px;
+  }
+}

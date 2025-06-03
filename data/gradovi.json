@@ -1,0 +1,139 @@
+{
+  "Data": {
+    "Header": {
+      "CompanyID": "1",
+      "SystemID": "186",
+      "ResponseDateTime": "2024-11-27T21:07:32.801705",
+      "MsgType": "7",
+      "Language": "1"
+    },
+    "Body": {
+      "ORGUNITCITIES": [
+        {
+          "LANGUAGE": "1",
+          "CITYID": "81000",
+          "CITYNAME": "Podgorica",
+          "MUNICIPALITYID": "302",
+          "MUNICIPALITYNAME": "Podgorica"
+        },
+        {
+          "LANGUAGE": "1",
+          "CITYID": "81206",
+          "CITYNAME": "Tuzi",
+          "MUNICIPALITYID": "337",
+          "MUNICIPALITYNAME": "Tuzi"
+        },
+        {
+          "LANGUAGE": "1",
+          "CITYID": "81210",
+          "CITYNAME": "Kolašin",
+          "MUNICIPALITYID": "728",
+          "MUNICIPALITYNAME": "Kolašin"
+        },
+        {
+          "LANGUAGE": "1",
+          "CITYID": "81250",
+          "CITYNAME": "Cetinje",
+          "MUNICIPALITYID": "310",
+          "MUNICIPALITYNAME": "Cetinje"
+        },
+        {
+          "LANGUAGE": "1",
+          "CITYID": "81400",
+          "CITYNAME": "Nikšić",
+          "MUNICIPALITYID": "400",
+          "MUNICIPALITYNAME": "Nikšić"
+        },
+        {
+          "LANGUAGE": "1",
+          "CITYID": "81410",
+          "CITYNAME": "Danilovgrad",
+          "MUNICIPALITYID": "329",
+          "MUNICIPALITYNAME": "Danilovgrad"
+        },
+        {
+          "LANGUAGE": "1",
+          "CITYID": "84000",
+          "CITYNAME": "Bijelo Polje",
+          "MUNICIPALITYID": "701",
+          "MUNICIPALITYNAME": "Bijelo Polje"
+        },
+        {
+          "LANGUAGE": "1",
+          "CITYID": "84210",
+          "CITYNAME": "Pljevlja",
+          "MUNICIPALITYID": "507",
+          "MUNICIPALITYNAME": "Pljevlja"
+        },
+        {
+          "LANGUAGE": "1",
+          "CITYID": "84300",
+          "CITYNAME": "Berane",
+          "MUNICIPALITYID": "604",
+          "MUNICIPALITYNAME": "Berane"
+        },
+        {
+          "LANGUAGE": "1",
+          "CITYID": "84310",
+          "CITYNAME": "Rožaje",
+          "MUNICIPALITYID": "620",
+          "MUNICIPALITYNAME": "Rožaje"
+        },
+        {
+          "LANGUAGE": "1",
+          "CITYID": "84325",
+          "CITYNAME": "Plav",
+          "MUNICIPALITYID": "612",
+          "MUNICIPALITYNAME": "Plav"
+        },
+        {
+          "LANGUAGE": "1",
+          "CITYID": "85000",
+          "CITYNAME": "Bar",
+          "MUNICIPALITYID": "809",
+          "MUNICIPALITYNAME": "Bar"
+        },
+        {
+          "LANGUAGE": "1",
+          "CITYID": "85310",
+          "CITYNAME": "Budva",
+          "MUNICIPALITYID": "817",
+          "MUNICIPALITYNAME": "Budva"
+        },
+        {
+          "LANGUAGE": "1",
+          "CITYID": "85320",
+          "CITYNAME": "Tivat",
+          "MUNICIPALITYID": "914",
+          "MUNICIPALITYNAME": "Tivat"
+        },
+        {
+          "LANGUAGE": "1",
+          "CITYID": "85330",
+          "CITYNAME": "Kotor",
+          "MUNICIPALITYID": "922",
+          "MUNICIPALITYNAME": "Kotor"
+        },
+        {
+          "LANGUAGE": "1",
+          "CITYID": "85340",
+          "CITYNAME": "Herceg Novi",
+          "MUNICIPALITYID": "906",
+          "MUNICIPALITYNAME": "HercegNovi"
+        },
+        {
+          "LANGUAGE": "1",
+          "CITYID": "85360",
+          "CITYNAME": "Ulcinj",
+          "MUNICIPALITYID": "825",
+          "MUNICIPALITYNAME": "Ulcinj"
+        }
+      ]
+    }
+  },
+  "Status": {
+    "ErrorCode": 0,
+    "ErrorMessage": "OK",
+    "DateTime": "2024-11-27T21:07:32.8210419+01:00"
+  }
+}

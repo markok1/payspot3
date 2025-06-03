@@ -1,0 +1,46 @@
+.cta {
+  background-color: $primary;
+  padding: 40px 0px;
+  margin-top: 40px;
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+  }
+}
+.cta-left {
+  color: $light;
+}
+@media screen and (max-width: 600px) {
+  .cta .wrapper {
+    gap: unset;
+    justify-content: space-between;
+  }
+  .cta-left {
+    width: 50%;
+    h3 {
+      font-size: 15px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+  .cta-right {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cta .wrapper {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  .cta-left {
+    width: 100%;
+    text-align: center;
+  }
+  .cta-right {
+    width: 100%;
+  }
+}
