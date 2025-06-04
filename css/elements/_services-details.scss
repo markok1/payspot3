@@ -1,6 +1,6 @@
 .services-hero {
   padding-top: 147px;
-  background-image: url('../img/payspot-pozadina.png');
+  background-image: url("../img/payspot-pozadina.png");
   background-color: rgb(255, 255, 255);
   background-position: left center;
   background-size: contain;
@@ -56,18 +56,22 @@
   background-repeat: no-repeat;
 }
 .service-platni-promet {
-  background-image: url('../img/platni-promet-bg.webp');
+  background-image: url("../img/platni-promet-bg.webp");
 }
 .service-slanje-unutar-zemlje {
-  background-image: url('../img/slanje-novca-u-zemlji-big.webp');
+  background-image: url("../img/slanje-novca-u-zemlji-big.webp");
+  background-position: bottom;
+}
+.pos-terminal-bg {
+  background-image: url("../img/pos-terminal.webp");
   background-position: bottom;
 }
 .ria-bg {
-  background-image: url('../img/ria-bg2.webp');
+  background-image: url("../img/ria-bg2.webp");
   background-size: cover;
 }
 .service-uplata-pazara {
-  background-image: url('../img/uplata-pazara-big.webp');
+  background-image: url("../img/uplata-pazara-big.webp");
 }
 .cta-bottom {
   position: relative;
@@ -77,7 +81,7 @@
   justify-content: center;
   gap: 30px;
 
-  background-image: url('../img/wave.svg');
+  background-image: url("../img/wave.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
