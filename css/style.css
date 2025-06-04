@@ -3175,4 +3175,27 @@ ul li a img {
 
 .upustvo-content {
   position: relative;
+}
+
+.contactSection-service {
+  padding-top: 50px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.contactSection-service .quote-form-inputs-contact {
+  margin-top: 0 !important;
+}
+.contactSection-service .formHolder {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+}
+.contactSection-service .formHolder .contactForm #contact-form-id {
+  max-width: 740px;
+}
+.contactSection-service h2 {
+  margin-bottom: 0;
 }/*# sourceMappingURL=style.css.map */

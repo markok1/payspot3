@@ -291,265 +291,44 @@
             <div class="services-hero-right pos-terminal-bg"></div>
           </div>
         </div>
-
-        <div class="upustva">
-          <div class="wrapper">
-            <h2>How to send money?</h2>
-
-            <div class="images-holder">
-              <div class="upustvo-content">
-                <!-- <div class="number"><p>1</p></div> -->
-                <div>
-                  <img
-                    class="bw-image"
-                    src="img/running.png"
-                    alt="Poslatvi novac" />
+        <div class="contactSection contactSection-service">
+          <div class="wrapper formHolder">
+            <h2>Important Information:</h2>
+            <div class="contactForm">
+              <form id="contact-form-id" class="quote-form-inputs-contact"
+                method="post" action="send.php">
+                <div class="firstRowForm">
+                  <input class="contact-name" name="name" type="text"
+                    placeholder="Enter your first name *" required />
+                  <input class="contact-name" name="lastname" type="text"
+                    placeholder="Enter your last name *" required />
                 </div>
-                <h3>Visit the PaySpot ME location</h3>
-                <p>
-                  Visit the PaySpot ME location in Montenegro. Nearest location
-                  you can find it through the locator
-                </p>
-                <svg
-                  class="arrow-right"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#e10000">
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                  <g
-                    id="SVGRepo_tracerCarrier"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"></g>
-                  <g id="SVGRepo_iconCarrier">
-                    <path
-                      d="M13 9H3v6h10v5.75L21.75 12 13 3.25zm1-3.336L20.336 12 14 18.336V14H4v-4h10z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                  </g>
-                </svg>
-              </div>
-              <div class="upustvo-content">
-                <!-- <div class="number"><p>2</p></div> -->
-                <div>
-                  <img
-                    class="bw-image"
-                    src="img/send-1.png"
-                    alt="Dajte podatke" />
+                <div class="firstRowForm">
+                  <input class="contact-company" name="company" type="text"
+                    placeholder="Enter company name *" required />
+                  <input class="contact-pib" name="pib" type="text"
+                    placeholder="Enter tax ID (PIB) *" required />
                 </div>
-                <h3>Give basic data</h3>
-                <p>
-                  Provide basic information: first and last name of the
-                  recipient, country and city, amount to send
-                </p>
-                <svg
-                  class="arrow-right"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#e10000">
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                  <g
-                    id="SVGRepo_tracerCarrier"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"></g>
-                  <g id="SVGRepo_iconCarrier">
-                    <path
-                      d="M13 9H3v6h10v5.75L21.75 12 13 3.25zm1-3.336L20.336 12 14 18.336V14H4v-4h10z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                  </g>
-                </svg>
-              </div>
-              <div class="upustvo-content">
-                <!-- <div class="number"><p>3</p></div> -->
-                <div>
-                  <img class="bw-image" src="img/cash.png" alt="Novac" />
+                <div class="secondRowForm">
+                  <input class="contact-subject" name="subject" type="text"
+                    placeholder="Enter your email *" required />
                 </div>
-                <h3>Give money</h3>
-
-                <p>Prepare the amount you want to pay</p>
-                <svg
-                  class="arrow-right"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#e10000">
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                  <g
-                    id="SVGRepo_tracerCarrier"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"></g>
-                  <g id="SVGRepo_iconCarrier">
-                    <path
-                      d="M13 9H3v6h10v5.75L21.75 12 13 3.25zm1-3.336L20.336 12 14 18.336V14H4v-4h10z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                  </g>
-                </svg>
-              </div>
-              <div class="upustvo-content">
-                <!-- <div class="number"><p>4</p></div> -->
-                <div>
-                  <img class="bw-image" src="img/send-3.png" alt />
+                <div class="secondRowForm">
+                  <input class="contact-phone" name="phone" type="text"
+                    placeholder="Enter your phone number *" required />
                 </div>
-                <h3>Share your send/transfer code</h3>
-                <p>
-                  Share the PIN (sending/transfer code) with recipient for
-                  download money.
-                </p>
-              </div>
+                <div class="contact-message">
+                  <textarea class="contact-message-box" name="message"
+                    placeholder="Enter your message *" required></textarea>
+                </div>
+                <div class="submit-btn">
+                  <button class="post-submit-contact" type="submit">Send
+                    Message</button>
+                  <p class="form-messege"></p>
+                </div>
+              </form>
             </div>
           </div>
-        </div>
-
-        <div class="upustva">
-          <div class="wrapper">
-            <h2>How to receive money through RIA?</h2>
-
-            <div class="images-holder">
-              <div class="upustvo-content">
-                <!-- <div class="number"><p>1</p></div> -->
-                <div>
-                  <img
-                    class="bw-image"
-                    src="img/running.png"
-                    alt="Poslatvi novac" />
-                </div>
-                <h3>Visit the RIA office</h3>
-                <p>
-                  You can find information about the nearest RIA office at RIA
-                  site
-                </p>
-                <svg
-                  class="arrow-right"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#e10000">
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                  <g
-                    id="SVGRepo_tracerCarrier"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"></g>
-                  <g id="SVGRepo_iconCarrier">
-                    <path
-                      d="M13 9H3v6h10v5.75L21.75 12 13 3.25zm1-3.336L20.336 12 14 18.336V14H4v-4h10z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                  </g>
-                </svg>
-              </div>
-              <div class="upustvo-content">
-                <!-- <div class="number"><p>2</p></div> -->
-                <div>
-                  <img
-                    class="bw-image"
-                    src="img/send-2.png"
-                    alt="Dajte podatke" />
-                </div>
-                <h3>Identification document</h3>
-                <p>Bring a valid identification document</p>
-                <svg
-                  class="arrow-right"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#e10000">
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                  <g
-                    id="SVGRepo_tracerCarrier"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"></g>
-                  <g id="SVGRepo_iconCarrier">
-                    <path
-                      d="M13 9H3v6h10v5.75L21.75 12 13 3.25zm1-3.336L20.336 12 14 18.336V14H4v-4h10z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                  </g>
-                </svg>
-              </div>
-              <div class="upustvo-content">
-                <!-- <div class="number"><p>3</p></div> -->
-                <div>
-                  <img class="bw-image" src="img/send-1.png" alt="Novac" />
-                </div>
-                <h3>Communicate data</h3>
-                <p>
-                  Provide the cashier with the following information: Name and
-                  surname sender, country and city from where the money was
-                  sent, Amount and PIN (sending/transfer code)
-                </p>
-                <svg
-                  class="arrow-right"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#e10000">
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                  <g
-                    id="SVGRepo_tracerCarrier"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"></g>
-                  <g id="SVGRepo_iconCarrier">
-                    <path
-                      d="M13 9H3v6h10v5.75L21.75 12 13 3.25zm1-3.336L20.336 12 14 18.336V14H4v-4h10z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                  </g>
-                </svg>
-              </div>
-              <div class="upustvo-content">
-                <!-- <div class="number"><p>4</p></div> -->
-                <div>
-                  <img class="bw-image" src="img/cash.png" alt="Novac" />
-                </div>
-                <h3>Get money</h3>
-                <p>
-                  The money will be paid to you in full and in the specified
-                  currency at no additional cost
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div class="wrapper">
-            <h3>Important information:</h3>
-            <div class="services-content">
-              <ul class="circle-list">
-                <li>
-                  Money transfer costs are borne by the Payer, in accordance
-                  with The Institution's tariff.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="ria-table">
-          <table>
-            <tr>
-              <th colspan="2">Remittances of natural persons</th>
-            </tr>
-            <tr>
-              <th>Type</th>
-              <th>Amount</th>
-            </tr>
-            <tr>
-              <td>Send a national money order PaySpot Net</td>
-              <td>2% min, 1.00 EUR max 20,00 EUR</td>
-            </tr>
-            <tr>
-              <td>National Remittance Payout PaySpot Net</td>
-              <td>No charge</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="ria-table">
-          <table>
-            <tr>
-              <th colspan="2">Receiving RIA remittances</th>
-            </tr>
-            <tr>
-              <th>Type of fee</th>
-              <th>Fee amount</th>
-            </tr>
-            <tr>
-              <td>Receipt of RIA remittance</td>
-              <td>No charge</td>
-            </tr>
-          </table>
         </div>
 
         <div class="cta-bottom">

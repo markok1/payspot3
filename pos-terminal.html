@@ -285,249 +285,44 @@
           </div>
         </div>
 
-        <div class="upustva">
-          <div class="wrapper">
-            <h2>Kako poslati novac?</h2>
-
-            <div class="images-holder">
-              <div class="upustvo-content">
-                <!-- <div class="number"><p>1</p></div> -->
-                <div>
-                  <img
-                    class="bw-image"
-                    src="img/running.png"
-                    alt="Poslatvi novac" />
+        <div class="contactSection contactSection-service">
+          <div class="wrapper formHolder">
+            <h2>Važne informacije:</h2>
+            <div class="contactForm">
+              <form id="contact-form-id" class="quote-form-inputs-contact"
+                method="post" action="send.php">
+                <div class="firstRowForm">
+                  <input class="contact-name" name="name" type="text"
+                    placeholder="Unesite vaše ime *" required />
+                  <input class="contact-name" name="name" type="text"
+                    placeholder="Unesite vaše prezime *" required />
                 </div>
-                <h3>Posjetite PaySpot ME lokaciju</h3>
-                <p>
-                  Posjetite PaySpot ME lokaciju u Crnoj Gori. Najbližu lokaciju
-                  možete naći preko lokatora
-                </p>
-
-                <svg
-                  class="arrow-right"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#e10000">
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                  <g
-                    id="SVGRepo_tracerCarrier"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"></g>
-                  <g id="SVGRepo_iconCarrier">
-                    <path
-                      d="M13 9H3v6h10v5.75L21.75 12 13 3.25zm1-3.336L20.336 12 14 18.336V14H4v-4h10z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                  </g>
-                </svg>
-              </div>
-              <div class="upustvo-content">
-                <!-- <div class="number"><p>2</p></div> -->
-                <div>
-                  <img
-                    class="bw-image"
-                    src="img/send-1.png"
-                    alt="Dajte podatke" />
+                <div class="firstRowForm">
+                  <input class="contact-company" name="company" type="text"
+                    placeholder="Unesite naziv firme *" required />
+                  <input class="contact-pib" name="pib" type="text"
+                    placeholder="Unesite PIB *" required />
                 </div>
-                <h3>Dajte osnovne podatke</h3>
-                <p>
-                  Dajte osnovne podatke: ime i prezime primaoca kao i adresu i
-                  mjesto
-                </p>
-                <svg
-                  class="arrow-right"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#e10000">
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                  <g
-                    id="SVGRepo_tracerCarrier"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"></g>
-                  <g id="SVGRepo_iconCarrier">
-                    <path
-                      d="M13 9H3v6h10v5.75L21.75 12 13 3.25zm1-3.336L20.336 12 14 18.336V14H4v-4h10z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                  </g>
-                </svg>
-              </div>
-              <div class="upustvo-content">
-                <!-- <div class="number"><p>3</p></div> -->
-                <div>
-                  <img class="bw-image" src="img/cash.png" alt="Novac" />
+                <div class="secondRowForm">
+                  <input class="contact-subject" name="subject" type="text"
+                    placeholder="Unesite vaš email *" required />
                 </div>
-                <h3>Uplatite novac</h3>
-
-                <p>Pripremite iznos koji želite da uplatite</p>
-                <svg
-                  class="arrow-right"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#e10000">
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                  <g
-                    id="SVGRepo_tracerCarrier"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"></g>
-                  <g id="SVGRepo_iconCarrier">
-                    <path
-                      d="M13 9H3v6h10v5.75L21.75 12 13 3.25zm1-3.336L20.336 12 14 18.336V14H4v-4h10z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                  </g>
-                </svg>
-              </div>
-              <div class="upustvo-content">
-                <!-- <div class="number"><p>4</p></div> -->
-                <div>
-                  <img class="bw-image" src="img/send-3.png" alt />
+                <div class="secondRowForm">
+                  <input class="contact-phone" name="phone" type="text"
+                    placeholder="Unesite kontakt telefon *" required />
                 </div>
-                <h3>Podijelite šifru slanja/transfera</h3>
-                <p>
-                  Podjelite TAN kod (šifru novčane doznake) sa primaocem novca
-                </p>
-              </div>
+                <div class="contact-message">
+                  <textarea class="contact-message-box" name="message"
+                    placeholder="Unesite vašu poruku *" required></textarea>
+                </div>
+                <div class="submit-btn">
+                  <button class="post-submit-contact" type="submit">Pošaljite
+                    poruku</button>
+                  <p class="form-messege"></p>
+                </div>
+              </form>
             </div>
           </div>
-        </div>
-
-        <div class="upustva">
-          <div class="wrapper">
-            <h2>Kako primiti novac?</h2>
-
-            <div class="images-holder">
-              <div class="upustvo-content">
-                <!-- <div class="number"><p>1</p></div> -->
-                <div>
-                  <img
-                    class="bw-image"
-                    src="img/running.png"
-                    alt="Poslatvi novac" />
-                </div>
-                <h3>Posjetite PaySpot ME lokaciju</h3>
-                <p>
-                  Posjetite PaySpot ME lokaciju u Crnoj Gori. Najbližu lokaciju
-                  možete naći preko lokatora
-                </p>
-                <svg
-                  class="arrow-right"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#e10000">
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                  <g
-                    id="SVGRepo_tracerCarrier"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"></g>
-                  <g id="SVGRepo_iconCarrier">
-                    <path
-                      d="M13 9H3v6h10v5.75L21.75 12 13 3.25zm1-3.336L20.336 12 14 18.336V14H4v-4h10z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                  </g>
-                </svg>
-              </div>
-              <div class="upustvo-content">
-                <!-- <div class="number"><p>2</p></div> -->
-                <div>
-                  <img
-                    class="bw-image"
-                    src="img/send-2.png"
-                    alt="Dajte podatke" />
-                </div>
-                <h3>Identifikacioni dokument</h3>
-                <p>Ponesite važeći identifikacioni dokument</p>
-                <svg
-                  class="arrow-right"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#e10000">
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                  <g
-                    id="SVGRepo_tracerCarrier"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"></g>
-                  <g id="SVGRepo_iconCarrier">
-                    <path
-                      d="M13 9H3v6h10v5.75L21.75 12 13 3.25zm1-3.336L20.336 12 14 18.336V14H4v-4h10z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                  </g>
-                </svg>
-              </div>
-              <div class="upustvo-content">
-                <!-- <div class="number"><p>3</p></div> -->
-                <div>
-                  <img class="bw-image" src="img/send-1.png" alt="Novac" />
-                </div>
-                <h3>Saopštite podatke</h3>
-
-                <p>
-                  Pružiti blagajniku sledeće informacije: ime i prezime platioca
-                  kao i adresu i mjesto odakle je novac poslat, iznos i TAN kod
-                  (šifru novčane doznake)
-                </p>
-                <svg
-                  class="arrow-right"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#e10000">
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                  <g
-                    id="SVGRepo_tracerCarrier"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"></g>
-                  <g id="SVGRepo_iconCarrier">
-                    <path
-                      d="M13 9H3v6h10v5.75L21.75 12 13 3.25zm1-3.336L20.336 12 14 18.336V14H4v-4h10z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                  </g>
-                </svg>
-              </div>
-              <div class="upustvo-content">
-                <!-- <div class="number"><p>4</p></div> -->
-                <div>
-                  <img class="bw-image" src="img/cash.png" alt="Novac" />
-                </div>
-                <h3>Preuzmite novac</h3>
-                <p>
-                  Preuzmite novac: novac će Vam biti isplaćen u gotovini u
-                  nominalnom iznosu
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div class="wrapper">
-            <h3>Važne informacije:</h3>
-            <div class="services-content">
-              <ul class="circle-list">
-                <li>
-                  Troškovi transfera novca su na teret Platioca, u skladu sa
-                  Tarifom Institucije.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="ria-table">
-          <table>
-            <tr>
-              <th colspan="2">Novčane doznake fizičkih lica</th>
-            </tr>
-            <tr>
-              <th>Vrsta</th>
-              <th>Iznos</th>
-            </tr>
-            <tr>
-              <td>Slanje nacionalne novčane doznake PaySpot Net</td>
-              <td>2% min, 1.00 EUR max 20,00 EUR</td>
-            </tr>
-            <tr>
-              <td>Isplata nacionalne novčane doznake PaySpot Net</td>
-              <td>Bez naknade</td>
-            </tr>
-          </table>
         </div>
 
         <div class="cta-bottom">

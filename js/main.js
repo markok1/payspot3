@@ -49,7 +49,8 @@ $(".navbar .for_mobile ul .dropdown_li_sm > a").click(function (e) {
         $(".dropdown_active").removeClass("dropdown_active");
         $(this).addClass("dropdown_active");
         var getheight = $(this).next().find(".boxes").height() + 50;
-        var submenuheight = $(this).next().find(".extended-boxes").height() + 10;
+        var submenuheight =
+          $(this).next().find(".extended-boxes").height() + 10;
         var totalheight = 0;
         if (isNaN(submenuheight)) {
           totalheight = getheight;
@@ -201,7 +202,9 @@ $(document).ready(function () {
         error: function (jqXHR, textStatus, errorThrown) {
           console.error("AJAX Error:", textStatus, errorThrown); // Log any AJAX errors
           console.log("Response Text:", jqXHR.responseText); // Log the response text
-          alert("An error occurred while submitting the form. Please try again.");
+          alert(
+            "An error occurred while submitting the form. Please try again."
+          );
         },
       });
 
@@ -256,7 +259,9 @@ $(document).ready(function () {
         error: function (jqXHR, textStatus, errorThrown) {
           console.error("AJAX Error:", textStatus, errorThrown); // Log any AJAX errors
           console.log("Response Text:", jqXHR.responseText); // Log the response text
-          alert("An error occurred while submitting the form. Please try again.");
+          alert(
+            "An error occurred while submitting the form. Please try again."
+          );
         },
       });
       // Clear form inputs
@@ -280,6 +285,117 @@ $(document).ready(function () {
       } else {
         $(this).css("border", "1px solid #404040");
       }
+    }
+  });
+
+  $(".post-submit-contact").click(function (e) {
+    e.preventDefault();
+
+    if ($(".quote-form-inputs-contact")[0].checkValidity()) {
+      var contact_form = {
+        name: $(".contact-name").val(),
+        email: $(".contact-email").val(),
+        company: $(".contact-company").val(),
+        pib: $(".contact-pib").val(),
+        subject: $(".contact-subject").val(),
+        phone: $(".contact-phone").val(),
+        message: $(".contact-message-box").val(),
+      };
+
+      console.log("Contact Form:", contact_form);
+
+      $.ajax({
+        type: "POST",
+        url: "php/contact-us.php", // Make sure this path is correct
+        data: contact_form,
+        dataType: "json",
+        success: function (response) {
+          console.log("AJAX Response:", response);
+
+          if (response.status === "success") {
+            $(".form-messege").text("Poruka uspešno poslata!");
+          } else {
+            $(".form-messege").text("Greška: " + response.message);
+          }
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+          console.error("AJAX Error:", textStatus, errorThrown);
+          console.log("Response Text:", jqXHR.responseText);
+          $(".form-messege").text("Došlo je do greške pri slanju.");
+        },
+      });
+
+      // Clear inputs
+      $(".quote-form-inputs-contact input").val("");
+      $(".quote-form-inputs-contact textarea").val("");
+    } else {
+      $(".quote-form-inputs-contact input").each(function () {
+        $(this).css(
+          "border",
+          this.validity.valid ? "1px solid #404040" : "1px solid red"
+        );
+      });
+      $(".quote-form-inputs-contact textarea").css(
+        "border",
+        $(".quote-form-inputs-contact textarea")[0].validity.valid
+          ? "1px solid #404040"
+          : "1px solid red"
+      );
+    }
+  });
+
+  $(".post-submit-contact").click(function (e) {
+    e.preventDefault();
+
+    if ($(".quote-form-inputs-contact")[0].checkValidity()) {
+      var contact_form = {
+        name: $(".contact-name").val(),
+        email: $(".contact-email").val(),
+        company: $(".contact-company").val(),
+        pib: $(".contact-pib").val(),
+        subject: $(".contact-subject").val(),
+        phone: $(".contact-phone").val(),
+        message: $(".contact-message-box").val(),
+      };
+
+      console.log("Contact Form:", contact_form);
+
+      $.ajax({
+        type: "POST",
+        url: "php/post.php",
+        data: contact_form,
+        dataType: "json",
+        success: function (response) {
+          console.log("AJAX Response:", response);
+
+          if (response.status === "success") {
+            $(".form-messege").text("Poruka uspešno poslata!");
+          } else {
+            $(".form-messege").text("Greška: " + response.message);
+          }
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+          console.error("AJAX Error:", textStatus, errorThrown);
+          console.log("Response Text:", jqXHR.responseText);
+          $(".form-messege").text("Došlo je do greške pri slanju.");
+        },
+      });
+
+      $(".quote-form-inputs-contact input").val("");
+      $(".quote-form-inputs-contact textarea").val("");
+    } else {
+      $(".quote-form-inputs-contact input").each(function () {
+        $(this).css(
+          "border",
+          this.validity.valid ? "1px solid #404040" : "1px solid red"
+        );
+      });
+      $(".quote-form-inputs-contact textarea").css(
+        "border",
+        $(".quote-form-inputs-contact textarea")[0].validity.valid
+          ? "1px solid #404040"
+          : "1px solid red"
+      );
     }
   });
 });
