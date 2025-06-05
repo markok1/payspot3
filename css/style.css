@@ -995,9 +995,10 @@ ul li a img {
   gap: 30px;
   padding-top: 50px;
   padding-bottom: 50px;
+  justify-content: center;
 }
 .hero .slider .wrapper .post-terminal-slider img {
-  max-width: 300px;
+  max-width: 250px;
 }
 
 @media (max-width: 600px) {
