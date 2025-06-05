@@ -112,6 +112,10 @@ a {
   filter: grayscale(100%) brightness(0%) invert(13%) sepia(100%) saturate(5000%);
 }
 
+.r {
+  color: #e10000;
+}
+
 .primary-button {
   text-align: center;
   display: flex;
@@ -980,6 +984,37 @@ ul li a img {
   }
   .hero .slider .wrapper .slider-content .primary-button a {
     font-size: 12px;
+  }
+}
+.hero .slider .wrapper .post-terminal-slider {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  width: 100%;
+  padding: 0;
+  gap: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.hero .slider .wrapper .post-terminal-slider img {
+  max-width: 300px;
+}
+
+@media (max-width: 600px) {
+  .hero .slider .wrapper .post-terminal-slider {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hero .slider .wrapper .post-terminal-slider .slider-content-buttons {
+    padding-top: 0px;
+  }
+  .hero .slider .wrapper .post-terminal-slider .left {
+    order: 2;
+    padding-bottom: 50px;
+  }
+  .hero .slider .wrapper .post-terminal-slider img {
+    max-width: 150px;
+    order: 2;
   }
 }
 .what-we-offer {
@@ -2977,7 +3012,7 @@ ul li a img {
 }
 
 .pos-terminal-bg {
-  background-image: url("../img/pos-terminal.webp");
+  background-image: url("../img/pos-terminal-v2.webp");
   background-position: bottom;
 }
 

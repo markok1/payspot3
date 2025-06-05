@@ -1,16 +1,16 @@
 // fonts
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @font-face {
   font-family: ToucheSemibold;
-  src: url('../fonts/Touche/Touche.otf');
+  src: url("../fonts/Touche/Touche.otf");
 }
 @font-face {
   font-family: ToucheBold;
-  src: url('../fonts/Touche/ToucheSemibold.woff');
+  src: url("../fonts/Touche/ToucheSemibold.woff");
 }
 @font-face {
   font-family: ToucheLight;
-  src: url('../fonts/Touche/touche-webfont.woff');
+  src: url("../fonts/Touche/touche-webfont.woff");
 }
 // fonts end
 
@@ -18,7 +18,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: $primary;
 }
 html {
@@ -70,7 +70,7 @@ a {
     padding-left: 20px;
   }
   li::before {
-    content: '✔'; /* Unicode checkmark */
+    content: "✔"; /* Unicode checkmark */
     color: #e10000;
     font-weight: bold;
     display: inline-block;
@@ -88,7 +88,7 @@ a {
     counter-increment: list-counter;
   }
   li::before {
-    content: counter(list-counter) '. '; /* Add number before list item */
+    content: counter(list-counter) ". "; /* Add number before list item */
     font-weight: bold;
     color: #e10000;
     margin-right: 5px;
@@ -103,4 +103,7 @@ a {
 }
 .bw-image {
   filter: grayscale(100%) brightness(0%) invert(13%) sepia(100%) saturate(5000%);
+}
+.r {
+  color: #e10000;
 }
