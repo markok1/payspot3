@@ -1016,6 +1016,34 @@ ul li a img {
   .hero .slider .wrapper .post-terminal-slider img {
     max-width: 150px;
     order: 2;
+    transform: rotate(20deg);
+    margin-left: calc(50% - 50px);
+    margin-top: -70px;
+  }
+  .hero .slider .wrapper .slider-content {
+    min-height: 710px;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hero .slider .wrapper .slider-content.post-terminal-slider {
+    justify-content: start;
+    align-items: unset;
+  }
+}
+@media (max-width: 500px) {
+  .hero .slider .wrapper .post-terminal-slider img {
+    max-width: 110px;
+    transform: rotate(20deg);
+    margin-left: calc(50% + 10px);
+    margin-top: -90px;
+  }
+  .hero .slider .wrapper .slider-content.post-terminal-slider h1 {
+    max-width: 300px;
+  }
+  .hero .slider .wrapper .slider-content {
+    min-height: 540px;
   }
 }
 .what-we-offer {

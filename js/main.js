@@ -109,7 +109,7 @@ $(".hero-slider").slick({
   speed: 2500,
   slidesToShow: 1,
   adaptiveHeight: true,
-  autoplay: true,
+  autoplay: false,
   autoplaySpeed: 3000,
 });
 
