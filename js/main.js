@@ -288,6 +288,62 @@ $(document).ready(function () {
     }
   });
 
+  // $(".post-submit-contact").click(function (e) {
+  //   e.preventDefault();
+
+  //   if ($(".quote-form-inputs-contact")[0].checkValidity()) {
+  //     var contact_form = {
+  //       name: $(".contact-name").val(),
+  //       email: $(".contact-email").val(),
+  //       company: $(".contact-company").val(),
+  //       pib: $(".contact-pib").val(),
+  //       subject: $(".contact-subject").val(),
+  //       phone: $(".contact-phone").val(),
+  //       message: $(".contact-message-box").val(),
+  //     };
+
+  //     console.log("Contact Form:", contact_form);
+
+  //     $.ajax({
+  //       type: "POST",
+  //       url: "php/contact-us.php", // Make sure this path is correct
+  //       data: contact_form,
+  //       dataType: "json",
+  //       success: function (response) {
+  //         console.log("AJAX Response:", response);
+
+  //         if (response.status === "success") {
+  //           $(".form-messege").text("Poruka uspešno poslata!");
+  //         } else {
+  //           $(".form-messege").text("Greška: " + response.message);
+  //         }
+  //       },
+  //       error: function (jqXHR, textStatus, errorThrown) {
+  //         console.error("AJAX Error:", textStatus, errorThrown);
+  //         console.log("Response Text:", jqXHR.responseText);
+  //         $(".form-messege").text("Došlo je do greške pri slanju.");
+  //       },
+  //     });
+
+  //     // Clear inputs
+  //     $(".quote-form-inputs-contact input").val("");
+  //     $(".quote-form-inputs-contact textarea").val("");
+  //   } else {
+  //     $(".quote-form-inputs-contact input").each(function () {
+  //       $(this).css(
+  //         "border",
+  //         this.validity.valid ? "1px solid #404040" : "1px solid red"
+  //       );
+  //     });
+  //     $(".quote-form-inputs-contact textarea").css(
+  //       "border",
+  //       $(".quote-form-inputs-contact textarea")[0].validity.valid
+  //         ? "1px solid #404040"
+  //         : "1px solid red"
+  //     );
+  //   }
+  // });
+
   $(".post-submit-contact").click(function (e) {
     e.preventDefault();
 
@@ -306,7 +362,7 @@ $(document).ready(function () {
 
       $.ajax({
         type: "POST",
-        url: "php/contact-us.php", // Make sure this path is correct
+        url: "php/post.php",
         data: contact_form,
         dataType: "json",
         success: function (response) {
@@ -325,7 +381,6 @@ $(document).ready(function () {
         },
       });
 
-      // Clear inputs
       $(".quote-form-inputs-contact input").val("");
       $(".quote-form-inputs-contact textarea").val("");
     } else {
@@ -343,4 +398,4 @@ $(document).ready(function () {
       );
     }
   });
-
+});
