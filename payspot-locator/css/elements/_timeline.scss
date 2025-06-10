@@ -1,0 +1,318 @@
+.timeline {
+  position: relative;
+  margin-top: 55px;
+  margin-left: 15px;
+
+  background-image: url("../img/payspot-pozadina.png");
+  //   background-position: center;
+  //   background-repeat: no-repeat;
+  background-size: cover;
+}
+.timeline:before {
+  /* vertical line*/
+  content: "";
+  position: absolute;
+  top: 10px;
+  /* to align with midline*/
+  left: 22px;
+  width: 2px;
+  height: 97%;
+  background-color: #cad2d6;
+}
+
+.timeline__block {
+  position: relative;
+  margin-top: 42px;
+  margin-bottom: 42px;
+  padding-left: 15px;
+}
+
+.timeline__block:last-child {
+  margin-bottom: 3em;
+}
+.timeline__block:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.timeline__midpoint {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: $primary;
+}
+.midpoint--right:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  width: 15px;
+  border-top: 1px solid $primary;
+}
+.timeline-content-box {
+  border: 1px solid silver;
+  padding: 20px 10px 10px 10px;
+  position: relative;
+  z-index: 2;
+  background-color: $light;
+  max-width: 560px;
+  .top-date {
+    position: absolute;
+    top: -19px;
+    left: 29px;
+    color: $light;
+    background-color: $secondary;
+    padding: 5px;
+  }
+  h2 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 28px;
+    font-weight: 700;
+    transition: all 0.25s ease-in;
+  }
+  .timeline-content {
+    display: flex;
+    gap: 20px;
+    p {
+      font-size: 15px;
+      line-height: 19px;
+    }
+    .content-left {
+      flex-shrink: 0;
+      max-width: 222px;
+    }
+  }
+}
+.timeline__content {
+  position: relative;
+  margin-left: 40px;
+  display: flex;
+  transition: all 0.25s ease-in;
+  &:hover {
+    transition: all 0.25s ease-in;
+    transform: translateY(-10px);
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    h2 {
+      color: $secondary;
+      transition: all 0.25s ease-in;
+    }
+  }
+}
+.timeline__content p + p {
+  padding-top: 0;
+}
+.timeline__content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.timeline__midpoint--highlight > .timeline__year {
+  display: none;
+}
+
+/* timeline typography */
+.timeline__content .timeline__year {
+  //   padding-top: 6px;
+  color: $primary;
+  text-align: left;
+}
+
+.timeline__midpoint--highlight .timeline__year {
+  color: #fff;
+  line-height: 4;
+}
+
+.timeline__year,
+.timeline__midpoint--highlight + .timeline__content {
+  font-weight: 600;
+}
+
+.timeline__content > p {
+  font-size: 0.88em;
+}
+
+/* timeline layout for desktop */
+@media (min-width: 1024px) {
+  section {
+    padding: 0 250px;
+  }
+
+  .timeline {
+    margin-left: 0;
+  }
+  .timeline:before {
+    /* vertical line */
+    left: 50%;
+    margin-left: -1px;
+  }
+  .timeline:after {
+    /* vertical line */
+    left: 50%;
+    margin-left: -1px;
+  }
+
+  .timeline__midpoint {
+    left: 50%;
+    margin-left: -8px;
+  }
+  .timeline__midpoint:before {
+    width: 100px;
+  }
+  .midpoint--left:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    width: 85px;
+    border-top: 1px solid $primary;
+  }
+
+  .timeline__midpoint--highlight {
+    top: 0;
+    width: 76px;
+    height: 76px;
+    margin-left: -29px;
+    margin-left: -38px;
+    text-align: center;
+  }
+  .timeline__midpoint--highlight.no-top-margin {
+    margin-top: 0;
+  }
+  .timeline__midpoint--highlight .timeline__year {
+    display: block;
+  }
+
+  .timeline__midpoint--highlight:before,
+  .timeline__midpoint.timeline__midpoint--highlight:after {
+    content: none;
+  }
+
+  .timeline__midpoint--highlight,
+  .timeline__midpoint--highlight + .timeline__content {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  .timeline__content {
+    width: calc(50% - 136px);
+  }
+  .timeline__content .timeline__year--mobile {
+    display: none;
+  }
+
+  //   .timeline__content--left {
+  //     margin-left: -6%;
+  //   }
+  .timeline__content--left .timeline__year {
+    left: 128%;
+  }
+
+  .timeline__year {
+    position: absolute;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .timeline__text--left {
+    padding-right: 25px;
+    text-align: left;
+  }
+
+  .timeline__content--right {
+    float: right;
+    // width: 53%;
+    left: -4%;
+  }
+  .timeline__content--right .timeline__year {
+    right: 134%;
+    text-align: right;
+  }
+  .timeline__content--right .timeline__text--right {
+    margin-top: 0;
+  }
+
+  .timeline__img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .timeline__content--left .timeline__img {
+    left: 127%;
+  }
+
+  .timeline__content--right .timeline__img {
+    right: 133.5%;
+  }
+  .last-midpoint::before {
+    content: "";
+    position: absolute;
+    bottom: -137px;
+    left: 7px;
+    width: 2px;
+    height: 137px;
+    background-color: white;
+  }
+}
+
+@media (max-width: 1280px) {
+  .timeline-content-box .timeline-content .content-left {
+    max-width: 150px;
+    flex-shrink: 0;
+  }
+  .timeline-content-box .timeline-content {
+    display: flex;
+    gap: 10px;
+  }
+  .timeline-content-box .timeline-content p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .midpoint--left:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    width: 50px;
+    border-top: 1px solid $primary;
+  }
+  .midpoint--right:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    width: 50px;
+    border-top: 1px solid $primary;
+  }
+  .timeline__midpoint:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    width: 38px;
+    border-top: 1px solid $primary;
+  }
+}
+@media (max-width: 425px) {
+  .timeline-content-box .timeline-content {
+    flex-direction: column;
+    .content-left {
+      max-width: 100%;
+    }
+  }
+  .timeline-content-box h2 {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}

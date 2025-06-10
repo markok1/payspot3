@@ -1,0 +1,17 @@
+{
+  "Data": {
+    "Header": {
+      "CompanyID": "1",
+      "SystemID": "182",
+      "ResponseDateTime": "2024-11-27T21:05:59.349314",
+      "MsgType": "5",
+      "Language": "1"
+    },
+    "Body": null
+  },
+  "Status": {
+    "ErrorCode": 0,
+    "ErrorMessage": "OK",
+    "DateTime": "2024-11-27T21:05:59.361553+01:00"
+  }
+}

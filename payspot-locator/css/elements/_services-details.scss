@@ -1,0 +1,294 @@
+.services-hero {
+  padding-top: 147px;
+  background-image: url("../img/payspot-pozadina.png");
+  background-color: rgb(255, 255, 255);
+  background-position: left center;
+  background-size: contain;
+  position: relative;
+  overflow: hidden;
+  .wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 100px 15px 300px 15px;
+  }
+  .no-padding-wrapper {
+    padding: 100px 15px 100px 15px;
+  }
+}
+.services-hero-left {
+  width: calc(50% - 20px);
+  .services-content {
+    max-width: 580px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    h1 {
+      color: $primary;
+      font-size: 52px;
+      line-height: 55px;
+      span {
+        color: $secondary;
+      }
+    }
+    .split {
+      height: 2px;
+      width: 100%;
+      background-color: #e9e9e9;
+    }
+    p {
+      a {
+        text-decoration: none;
+        color: $secondary;
+      }
+    }
+  }
+}
+.services-hero-right {
+  position: absolute;
+  right: 0px;
+  width: 50%;
+  height: 100%;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.service-platni-promet {
+  background-image: url("../img/platni-promet-bg.webp");
+}
+.service-slanje-unutar-zemlje {
+  background-image: url("../img/slanje-novca-u-zemlji-big.webp");
+  background-position: bottom;
+}
+.pos-terminal-bg {
+  background-image: url("../img/pos-terminal-v2.webp");
+  background-position: bottom;
+}
+.ria-bg {
+  background-image: url("../img/ria-bg2.webp");
+  background-size: cover;
+}
+.service-uplata-pazara {
+  background-image: url("../img/uplata-pazara-big.webp");
+}
+.cta-bottom {
+  position: relative;
+}
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+  background-image: url("../img/wave.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 140px 0px 75px 0px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .services-hero-left {
+    p {
+      font-size: 14px;
+    }
+    .services-content h1 {
+      font-size: 45px;
+      line-height: 49px;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .services-hero {
+    padding-top: 80px;
+    .wrapper {
+      padding: 70px 15px 250px 15px;
+    }
+    .no-padding-wrapper {
+      padding: 70px 15px 70px 15px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .services-hero {
+    .wrapper {
+      flex-direction: column;
+      padding: 70px 15px 145px 15px;
+    }
+    .no-padding-wrapper {
+      padding: 70px 15px 70px 15px;
+    }
+  }
+  .services-hero-left {
+    width: 100%;
+    .services-content {
+      width: 100%;
+      margin: unset;
+      max-width: unset;
+    }
+  }
+  .services-hero-right {
+    position: relative;
+    height: 100%;
+    min-height: 450px;
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .services-hero-left .services-content h1 {
+    font-size: 36px;
+    line-height: 41px;
+  }
+  .services-hero .wrapper {
+    padding: 55px 15px;
+  }
+}
+
+.upustva {
+  padding: 40px 0px;
+  h2 {
+    color: #e10000;
+    text-align: center;
+  }
+}
+
+.images-holder {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0px;
+  .upustvo-content {
+    position: relative;
+    width: calc(25% - 40px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    div {
+      max-height: 100px;
+    }
+  }
+}
+
+.number {
+  border: 2px solid #e10000;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .images-holder {
+    flex-wrap: wrap;
+    gap: 40px;
+    .upustvo-content {
+      width: calc(50% - 40px);
+    }
+  }
+  .arrow-right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .images-holder {
+    .upustvo-content {
+      width: 100%;
+    }
+  }
+}
+
+.ria-table {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0px 10px;
+}
+.ria-table table {
+  font-family: arial, sans-serif;
+  border-collapse: separate;
+  width: 100%;
+}
+.ria-table td,
+.ria-table th {
+  border: 0px solid #e10000;
+  background-color: #d7d7d7;
+  border-radius: 5px;
+  text-align: left;
+  padding: 8px 5px;
+  text-align: center;
+}
+.ria-table th {
+  background-color: #757575;
+  color: #fff;
+  width: 50%;
+}
+.ria-table td {
+  font-size: 16px;
+}
+@media (max-width: 772px) {
+  .ria-table td {
+    font-size: 14px;
+  }
+}
+.ria-table tr:first-child th {
+  background-color: #e10000;
+} /*# sourceMappingURL=style.css.map */
+
+.redlink {
+  text-decoration: none;
+  color: $secondary;
+}
+.remove-absolute {
+  position: relative !important;
+}
+
+.arrow-right {
+  max-width: 100px;
+  position: absolute;
+  top: 10%;
+  right: -70px;
+}
+.upustvo-content {
+  position: relative;
+}
+
+.contactSection-service {
+  padding-top: 50px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  .quote-form-inputs-contact {
+    margin-top: 0 !important;
+  }
+  .formHolder {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+  }
+  .formHolder .contactForm #contact-form-id {
+    max-width: 740px;
+  }
+  h2 {
+    margin-bottom: 0;
+  }
+}
+
+.postterminal-s {
+  p {
+    text-align: justify;
+  }
+}

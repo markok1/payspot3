@@ -1,0 +1,51 @@
+{
+  "requestContext": {
+    "platformMetadata": { "platformType": "RIF" },
+    "p2Metadata": {
+      "feature": "features/1565661834259",
+      "environment": "environments/production",
+      "release": "releases/03163bcf-fc1f-3808-9616-29b2e6478242",
+      "extension": "extensions/map_styling"
+    },
+    "clientVersion": "pantheon.pangular_20240908.14_p0",
+    "pagePath": "/google/maps-apis/studio/styles/:styleId/edit",
+    "pageViewId": 7090702033807673,
+    "trackingId": "d6078351952130089",
+    "forcedExperimentIds": { "add": [], "remove": [] },
+    "backendOverrides": {},
+    "clientSessionId": "DFCB1979-E73A-4B15-A4BB-B043AF4DF6B9",
+    "projectId": "proven-tractor-188021",
+    "selectedPurview": { "projectId": "proven-tractor-188021" },
+    "experimentFlagsBinary": "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"
+  },
+  "operationName": "UpdateClientStyle",
+  "variables": {
+    "clientStyle": {
+      "name": "projects/190332138119/clientStyles/3186db4ae9f2ad41",
+      "displayName": "Payspot",
+      "description": "Payspot",
+      "draftJsonEncodedStyleSheet": "{\"previewOptions\":{\"viewport\":{\"centerLat\":42.50774210339404,\"centerLng\":19.289733287452105,\"zoom\":9}},\"sdkMapVariant\":\"VARIANT_ROADMAP\",\"experiments\":{\"experiments\":[\"EXPERIMENT_ENABLE_BASEMAP_COLORS2\"]},\"schemaConfig\":{\"schemaVersionV3\":{\"taxonomyVersion\":6}},\"rules\":[{\"featureType\":\"poi.emergency.fire\",\"elementType\":\"labels.icon\",\"stylers\":[{\"color\":\"#f83542\"}]}]}",
+      "styleId": "3186db4ae9f2ad41",
+      "publishedJsonEncodedStyleSheet": "{\"experiments\":{\"experiments\":[\"EXPERIMENT_ENABLE_BASEMAP_COLORS2\"]},\"previewOptions\":{\"viewport\":{\"centerLat\":42.507742103394037,\"centerLng\":19.289733287452105,\"zoom\":9}},\"schemaConfig\":{\"schemaVersionV3\":{\"taxonomyVersion\":6}},\"sdkMapVariant\":\"VARIANT_ROADMAP\"}",
+      "mapActivationSet": null,
+      "isActive": false,
+      "previewImageUrl": "https://mapsresources-pa.googleapis.com/v1/tilesStyle?pb=!1m8!4m7!1m2!1u250!2u150!2u9!3m2!1x425077421!2x192897333!2m2!1e0!3i999999!3m7!12m1!1e47!12m4!1e68!2m2!1sset!2sRoadmap!4e0!5m1!5f2!20m3!3b1!6b1!15b1&style_id=3186db4ae9f2ad41&version=16930903996851035353",
+      "presetIds": [],
+      "editability": "CLIENT_STYLE_EDITABILITY_FULL",
+      "experimentIds": [56565656, 47083502, 1379903, 1376099],
+      "paintingHint": null,
+      "pinports": [],
+      "styleSheetSchemaConfig": {
+        "schemaVersionV1": null,
+        "schemaVersionV3": { "taxonomyVersion": 6, "compatibilityVersion": 0 },
+        "schemaVersion": "schemaVersionV3"
+      },
+      "createTime": null,
+      "updateTime": null,
+      "publishTime": null
+    },
+    "updateMask": "draft_json_encoded_style_sheet",
+    "previewHeightPx": 200,
+    "previewWidthPx": 400
+  }
+}

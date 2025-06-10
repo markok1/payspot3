@@ -1,14 +1,14 @@
 // js for navbar
-$(".navbar .lines").click(function (e) {
-  e.preventDefault();
-  if ($("body").hasClass("navbar_active")) {
-    $("body").removeClass("navbar_active");
-    $("body").removeClass("disable_scroll");
+$('.navbar .lines').click(function (e) {
+  e.preventDefault()
+  if ($('body').hasClass('navbar_active')) {
+    $('body').removeClass('navbar_active')
+    $('body').removeClass('disable_scroll')
   } else {
-    $("body").addClass("navbar_active");
-    $("body").addClass("disable_scroll");
+    $('body').addClass('navbar_active')
+    $('body').addClass('disable_scroll')
   }
-});
+})
 
 // $(".for_mobile ul li").click(function (e) {
 //   $(".active").removeClass("active");
@@ -16,92 +16,91 @@ $(".navbar .lines").click(function (e) {
 // });
 
 $(document).ready(function () {
-  $(".logo").on("click", function (event) {
-    window.location.href = "index.html";
-  });
-});
+  $('.logo').on('click', function (event) {
+    window.location.href = 'index.html'
+  })
+})
 
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-  anchor.addEventListener("click", function (e) {
-    e.preventDefault();
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault()
 
-    const targetId = this.getAttribute("href").substring(1);
-    const targetElement = document.getElementById(targetId);
+    const targetId = this.getAttribute('href').substring(1)
+    const targetElement = document.getElementById(targetId)
 
     if (targetElement) {
       targetElement.scrollIntoView({
-        behavior: "smooth",
-      });
+        behavior: 'smooth',
+      })
     }
-  });
-});
+  })
+})
 
-$(".navbar .for_mobile ul .dropdown_li_sm > a").click(function (e) {
+$('.navbar .for_mobile ul .dropdown_li_sm > a').click(function (e) {
   if ($(window).width() < 900) {
-    if (!$(this).parent().parent().parent().hasClass("ford")) {
-      e.preventDefault();
+    if (!$(this).parent().parent().parent().hasClass('ford')) {
+      e.preventDefault()
 
-      if ($(this).hasClass("dropdown_active")) {
-        $(this).removeClass("dropdown_active");
-        $(this).next("").css("max-height", "0px");
+      if ($(this).hasClass('dropdown_active')) {
+        $(this).removeClass('dropdown_active')
+        $(this).next('').css('max-height', '0px')
       } else {
-        $(".dropdown_active").next().css("max-height", "0px");
-        $(".dropdown_active").removeClass("dropdown_active");
-        $(this).addClass("dropdown_active");
-        var getheight = $(this).next().find(".boxes").height() + 50;
-        var submenuheight =
-          $(this).next().find(".extended-boxes").height() + 10;
-        var totalheight = 0;
+        $('.dropdown_active').next().css('max-height', '0px')
+        $('.dropdown_active').removeClass('dropdown_active')
+        $(this).addClass('dropdown_active')
+        var getheight = $(this).next().find('.boxes').height() + 50
+        var submenuheight = $(this).next().find('.extended-boxes').height() + 10
+        var totalheight = 0
         if (isNaN(submenuheight)) {
-          totalheight = getheight;
+          totalheight = getheight
         } else {
-          totalheight = getheight + submenuheight;
+          totalheight = getheight + submenuheight
         }
         $(this)
-          .next("")
-          .css("max-height", totalheight + "px");
+          .next('')
+          .css('max-height', totalheight + 'px')
       }
     }
   }
-});
-$(".sub-menu a").click(function (e) {
+})
+$('.sub-menu a').click(function (e) {
   if ($(window).width() < 900) {
-    if (!$(this).parent().parent().parent().hasClass("extended-ford")) {
-      e.preventDefault();
+    if (!$(this).parent().parent().parent().hasClass('extended-ford')) {
+      e.preventDefault()
 
-      if ($(this).hasClass("extended-dropdown-active")) {
-        $(this).removeClass("extended-dropdown-active");
-        $(this).next("").css("max-height", "0px");
+      if ($(this).hasClass('extended-dropdown-active')) {
+        $(this).removeClass('extended-dropdown-active')
+        $(this).next('').css('max-height', '0px')
       } else {
-        $(".extended-dropdown-active").next().css("max-height", "0px");
-        $(".extended-dropdown-active").removeClass("extended-dropdown-active");
-        $(this).addClass("extended-dropdown-active");
-        var getheight = $(this).next().find(".extended-boxes").height() + 50;
+        $('.extended-dropdown-active').next().css('max-height', '0px')
+        $('.extended-dropdown-active').removeClass('extended-dropdown-active')
+        $(this).addClass('extended-dropdown-active')
+        var getheight = $(this).next().find('.extended-boxes').height() + 50
         $(this)
-          .next("")
-          .css("max-height", getheight + "px");
+          .next('')
+          .css('max-height', getheight + 'px')
       }
     }
   }
-});
-$(".uskoro").click(function (e) {
-  e.preventDefault();
-});
-$(".uskoro-procitaj-vise").click(function (e) {
-  e.preventDefault();
-});
+})
+$('.uskoro').click(function (e) {
+  e.preventDefault()
+})
+$('.uskoro-procitaj-vise').click(function (e) {
+  e.preventDefault()
+})
 
-$(".root").scroll(function () {
+$('.root').scroll(function () {
   if ($(this).scrollTop() > 100) {
-    $("body").addClass("navbar_scrolled");
+    $('body').addClass('navbar_scrolled')
   } else {
-    $("body").removeClass("navbar_scrolled");
+    $('body').removeClass('navbar_scrolled')
   }
-});
+})
 // js for navbar end
 
 // js for header
-$(".hero-slider").slick({
+$('.hero-slider').slick({
   // cssEase: "cubic-bezier(0.600, -0.400, 0.735, 0.045)",
   dots: true,
   arrows: false,
@@ -111,11 +110,11 @@ $(".hero-slider").slick({
   adaptiveHeight: true,
   autoplay: true,
   autoplaySpeed: 3000,
-});
+})
 
 // js for about us
-$(".about-us-slider").slick({
-  cssEase: "cubic-bezier(0.600, -0.400, 0.735, 0.045)",
+$('.about-us-slider').slick({
+  cssEase: 'cubic-bezier(0.600, -0.400, 0.735, 0.045)',
   dots: false,
   arrows: false,
   // prevArrow: $(".custom-prev"),
@@ -140,153 +139,153 @@ $(".about-us-slider").slick({
       },
     },
   ],
-});
+})
 
 $(document).ready(function () {
-  if ($(".main-page").length > 0) {
+  if ($('.main-page').length > 0) {
     // var top0 = $("#hero").offset().top - 700;
-    var top1 = $("#usluge").offset().top - 700;
-    var top2 = $("#become-agent").offset().top - 700;
-    var top3 = $("#about-us").offset().top - 700;
+    var top1 = $('#usluge').offset().top - 700
+    var top2 = $('#become-agent').offset().top - 700
+    var top3 = $('#about-us').offset().top - 700
 
-    $(".root").scroll(function () {
-      var scrollPos = $(".root").scrollTop();
+    $('.root').scroll(function () {
+      var scrollPos = $('.root').scrollTop()
       // if (scrollPos >= top0 && scrollPos < top1) {
       //   $(".active").removeClass("active");
       //   $("#hero-in-view").addClass("active");
       // } else
       if (scrollPos >= top1 && scrollPos < top2) {
-        $(".active").removeClass("active");
-        $("#usluge-in-view").addClass("active");
+        $('.active').removeClass('active')
+        $('#usluge-in-view').addClass('active')
       } else if (scrollPos >= top2 && scrollPos < top3) {
-        $(".active").removeClass("active");
-        $("#become-agent-in-view").addClass("active");
+        $('.active').removeClass('active')
+        $('#become-agent-in-view').addClass('active')
       } else if (scrollPos >= top3) {
-        $(".active").removeClass("active");
-        $("#about-us-in-view").addClass("active");
+        $('.active').removeClass('active')
+        $('#about-us-in-view').addClass('active')
       }
-    });
+    })
   }
-});
+})
 $(document).ready(function () {
   // form submited
-  $(".form-submit").click(function (e) {
-    e.preventDefault();
+  $('.form-submit').click(function (e) {
+    e.preventDefault()
 
-    if ($(".quote-form-inputs")[0].checkValidity()) {
+    if ($('.quote-form-inputs')[0].checkValidity()) {
       var contact_form = {
-        name: $(".agent-name").val(),
-        city: $(".agent-city").val(),
-        adress: $(".agent-adress").val(),
-        zip: $(".agent-zip").val(),
-        phone: $(".agent-phone").val(),
-        email: $(".agent-email").val(),
-        pib: $(".agent-pib").val(),
-        message: $(".agent-message").val(),
-      };
+        name: $('.agent-name').val(),
+        city: $('.agent-city').val(),
+        adress: $('.agent-adress').val(),
+        zip: $('.agent-zip').val(),
+        phone: $('.agent-phone').val(),
+        email: $('.agent-email').val(),
+        pib: $('.agent-pib').val(),
+        message: $('.agent-message').val(),
+      }
 
       $.ajax({
-        type: "POST",
-        url: "php/agent-form.php", // Ensure the URL is correct relative to index.html
+        type: 'POST',
+        url: 'php/agent-form.php', // Ensure the URL is correct relative to index.html
         data: contact_form,
-        dataType: "json",
+        dataType: 'json',
         success: function (response) {
-          console.log("AJAX Response:", response); // Log success response
+          console.log('AJAX Response:', response) // Log success response
 
-          if (response.status === "success") {
-            alert("Form submitted successfully!");
+          if (response.status === 'success') {
+            $('.form-messege').text('Poruka uspešno poslata!')
           } else {
-            alert("Error: " + response.message);
+            $('.form-messege').text('Greška: ' + response.message)
           }
         },
         error: function (jqXHR, textStatus, errorThrown) {
-          console.error("AJAX Error:", textStatus, errorThrown); // Log any AJAX errors
-          console.log("Response Text:", jqXHR.responseText); // Log the response text
+          console.error('AJAX Error:', textStatus, errorThrown) // Log any AJAX errors
+          console.log('Response Text:', jqXHR.responseText) // Log the response text
           alert(
-            "An error occurred while submitting the form. Please try again."
-          );
+            'An error occurred while submitting the form. Please try again.'
+          )
         },
-      });
+      })
 
       // Clear form inputs
-      $(".quote-form-inputs input").val("");
-      $(".quote-form-inputs textarea").val("");
+      $('.quote-form-inputs input').val('')
+      $('.quote-form-inputs textarea').val('')
     } else {
-      $(".quote-form-inputs input").each(function () {
+      $('.quote-form-inputs input').each(function () {
         if (!$(this)[0].validity.valid) {
-          $(this).css("border", "1px solid red");
+          $(this).css('border', '1px solid red')
         } else {
-          $(this).css("border", "1px solid #404040");
+          $(this).css('border', '1px solid #404040')
         }
-      });
-      if (!$(".quote-form-inputs textarea")[0].validity.valid) {
-        $(".quote-form-inputs textarea").css("border", "1px solid red");
+      })
+      if (!$('.quote-form-inputs textarea')[0].validity.valid) {
+        $('.quote-form-inputs textarea').css('border', '1px solid red')
       } else {
-        $(".quote-form-inputs textarea").css("border", "1px solid #404040");
+        $('.quote-form-inputs textarea').css('border', '1px solid #404040')
       }
     }
-  });
+  })
 
-  $(".form-submit-contact").click(function (e) {
-    e.preventDefault();
+  $('.form-submit-contact').click(function (e) {
+    e.preventDefault()
 
     // const captchaResponse = grecaptcha.getResponse();
 
-    if ($(".quote-form-inputs-contact")[0].checkValidity()) {
+    if ($('.quote-form-inputs-contact')[0].checkValidity()) {
       var contact_form = {
-        name: $(".contact-name").val(),
-        email: $(".contact-email").val(),
-        subject: $(".contact-subject").val(),
-        message: $(".contact-message-box").val(),
-      };
-      console.log(contact_form);
+        name: $('.contact-name').val(),
+        email: $('.contact-email').val(),
+        subject: $('.contact-subject').val(),
+        message: $('.contact-message-box').val(),
+      }
+      console.log(contact_form)
 
       // if (captchaResponse.length > 0) {
       $.ajax({
-        type: "POST",
-        url: "php/contact-us.php", // Ensure the URL is correct relative to index.html
+        type: 'POST',
+        url: 'php/contact-us.php', // Ensure the URL is correct relative to index.html
         data: contact_form,
-        dataType: "json",
+        dataType: 'json',
         success: function (response) {
-          console.log("AJAX Response:", response); // Log success response
+          console.log('AJAX Response:', response) // Log success response
 
-          if (response.status === "success") {
-            alert("Form submitted successfully!");
+          if (response.status === 'success') {
+            $('.form-messege').text('Poruka uspešno poslata!')
           } else {
-            alert("Error: " + response.message);
+            $('.form-messege').text('Greška: ' + response.message)
           }
         },
         error: function (jqXHR, textStatus, errorThrown) {
-          console.error("AJAX Error:", textStatus, errorThrown); // Log any AJAX errors
-          console.log("Response Text:", jqXHR.responseText); // Log the response text
+          console.error('AJAX Error:', textStatus, errorThrown) // Log any AJAX errors
+          console.log('Response Text:', jqXHR.responseText) // Log the response text
           alert(
-            "An error occurred while submitting the form. Please try again."
-          );
+            'An error occurred while submitting the form. Please try again.'
+          )
         },
-      });
+      })
       // Clear form inputs
-      $(".quote-form-inputs-contact input").val("");
-      $(".quote-form-inputs-contact textarea").val("");
+      $('.quote-form-inputs-contact input').val('')
+      $('.quote-form-inputs-contact textarea').val('')
 
       // location.reload();
       // } else {
       //   $(".recap-div").addClass("recap-div_active");
       // }
     } else {
-      $(".quote-form-inputs-contact input").each(function (index) {
+      $('.quote-form-inputs-contact input').each(function (index) {
         if (!$(this)[0].validity.valid) {
-          $(this).css("border", "1px solid red");
+          $(this).css('border', '1px solid red')
         } else {
-          $(this).css("border", "1px solid #404040");
+          $(this).css('border', '1px solid #404040')
         }
-      });
-      if (!$(".quote-form-inputs-contact textarea")[0].validity.valid) {
-        $(".quote-form-inputs textarea").css("border", "1px solid red");
+      })
+      if (!$('.quote-form-inputs-contact textarea')[0].validity.valid) {
+        $('.quote-form-inputs textarea').css('border', '1px solid red')
       } else {
-        $(this).css("border", "1px solid #404040");
+        $(this).css('border', '1px solid #404040')
       }
     }
-  });
+  })
 
   // $(".post-submit-contact").click(function (e) {
   //   e.preventDefault();
@@ -344,59 +343,59 @@ $(document).ready(function () {
   //   }
   // });
 
-  $(".post-submit-contact2").click(function (e) {
-    e.preventDefault();
+  $('.post-submit-contact2').click(function (e) {
+    e.preventDefault()
 
-    if ($(".quote-form-inputs-contact")[0].checkValidity()) {
+    if ($('.quote-form-inputs-contact')[0].checkValidity()) {
       var contact_form = {
-        name: $(".contact-name").val() + " " + $(".contact-lastname").val(),
-        email: $(".contact-email").val(),
-        company: $(".contact-company").val(),
-        pib: $(".contact-pib").val(),
-        subject: "Upit sa sajta", // subject fiksiran pošto je email input ranije imao klasu contact-subject
-        phone: $(".contact-phone").val(),
-        message: $(".contact-message-box").val(),
-      };
+        name: $('.contact-name').val() + ' ' + $('.contact-lastname').val(),
+        email: $('.contact-email').val(),
+        company: $('.contact-company').val(),
+        pib: $('.contact-pib').val(),
+        subject: 'Upit sa sajta', // subject fiksiran pošto je email input ranije imao klasu contact-subject
+        phone: $('.contact-phone').val(),
+        message: $('.contact-message-box').val(),
+      }
 
-      console.log("Contact Form:", contact_form);
+      console.log('Contact Form:', contact_form)
 
       $.ajax({
-        type: "POST",
-        url: "php/post.php", // osiguraj da fajl postoji
+        type: 'POST',
+        url: 'php/post.php', // osiguraj da fajl postoji
         data: contact_form,
-        dataType: "json",
+        dataType: 'json',
         success: function (response) {
-          console.log("AJAX Response:", response);
+          console.log('AJAX Response:', response)
 
-          if (response.status === "success") {
-            $(".form-messege").text("Poruka uspešno poslata!");
+          if (response.status === 'success') {
+            $('.form-messege').text('Poruka uspešno poslata!')
           } else {
-            $(".form-messege").text("Greška: " + response.message);
+            $('.form-messege').text('Greška: ' + response.message)
           }
         },
         error: function (jqXHR, textStatus, errorThrown) {
-          console.error("AJAX Error:", textStatus, errorThrown);
-          console.log("Response Text:", jqXHR.responseText);
-          $(".form-messege").text("Došlo je do greške pri slanju.");
+          console.error('AJAX Error:', textStatus, errorThrown)
+          console.log('Response Text:', jqXHR.responseText)
+          $('.form-messege').text('Došlo je do greške pri slanju.')
         },
-      });
+      })
 
       // Clear inputs
-      $(".quote-form-inputs-contact input").val("");
-      $(".quote-form-inputs-contact textarea").val("");
+      $('.quote-form-inputs-contact input').val('')
+      $('.quote-form-inputs-contact textarea').val('')
     } else {
-      $(".quote-form-inputs-contact input").each(function () {
+      $('.quote-form-inputs-contact input').each(function () {
         $(this).css(
-          "border",
-          this.validity.valid ? "1px solid #404040" : "1px solid red"
-        );
-      });
-      $(".quote-form-inputs-contact textarea").css(
-        "border",
-        $(".quote-form-inputs-contact textarea")[0].validity.valid
-          ? "1px solid #404040"
-          : "1px solid red"
-      );
+          'border',
+          this.validity.valid ? '1px solid #404040' : '1px solid red'
+        )
+      })
+      $('.quote-form-inputs-contact textarea').css(
+        'border',
+        $('.quote-form-inputs-contact textarea')[0].validity.valid
+          ? '1px solid #404040'
+          : '1px solid red'
+      )
     }
-  });
-});
+  })
+})

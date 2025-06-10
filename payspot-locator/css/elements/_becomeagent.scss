@@ -1,0 +1,136 @@
+.become-agent {
+  background-image: url("../img/payspot-pozadina.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 0px 50px 0px;
+  p {
+    color: $black;
+  }
+}
+.agent-top {
+  h1 {
+    font-size: 50px;
+    line-height: 54px;
+    color: $primary;
+    margin-bottom: 25px;
+    span {
+      color: $secondary;
+      display: block;
+    }
+  }
+  p {
+    margin-bottom: 15px;
+  }
+}
+.subtitle {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  gap: 10px;
+  &::before {
+    content: " ";
+    width: 2.1875rem;
+    border-top: 2px solid $secondary;
+    display: block;
+    -webkit-flex-grow: 0;
+    flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+  }
+}
+.agent-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 30px;
+  padding-top: 40px;
+}
+.agent-box {
+  width: calc(33.33% - 30px);
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  transition: all 0.25s ease-in;
+  &:nth-child(2) {
+    transition-delay: 200ms;
+  }
+  &:nth-child(3) {
+    transition-delay: 400ms;
+  }
+  &:nth-child(4) {
+    transition-delay: 600ms;
+  }
+  &:nth-child(5) {
+    transition-delay: 800ms;
+  }
+  &:nth-child(6) {
+    transition-delay: 1000ms;
+  }
+  i {
+    color: $primary;
+    font-size: 62px;
+    padding-top: 10px;
+    transition: all 0.25s ease-in;
+    max-width: 70px;
+    width: 100%;
+    &::before {
+      display: flex;
+      max-width: 70px;
+      width: 100%;
+    }
+  }
+  .box-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    h2 {
+      font-size: 25px;
+      color: $primary;
+      transition: all 0.25s ease-in;
+    }
+  }
+  &:hover {
+    transition: all 0.25s ease-in;
+    transform: translateY(-10px);
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    i {
+      transition: all 0.25s ease-in;
+      color: $secondary;
+    }
+    h2 {
+      color: $secondary;
+      transition: all 0.25s ease-in;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .agent-box {
+    width: calc(50% - 10px);
+  }
+}
+@media (max-width: 600px) {
+  .become-agent {
+    padding: 50px 0px;
+  }
+  .agent-box {
+    width: 100%;
+  }
+  .agent-top h1 {
+    font-size: 30px;
+    line-height: 34px;
+    span {
+      display: flex;
+    }
+  }
+}
+@media (max-width: 375px) {
+  .agent-box .box-content h2 {
+    font-size: 20px;
+  }
+  .become-agent p {
+    font-size: 15px;
+  }
+}

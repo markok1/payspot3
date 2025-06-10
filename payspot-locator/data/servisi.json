@@ -1,0 +1,1147 @@
+{
+  "Data": {
+    "Header": {
+      "CompanyID": "1",
+      "SystemID": "184",
+      "ResponseDateTime": "2024-11-27T21:06:48.977914",
+      "MsgType": "6",
+      "Language": "1"
+    },
+    "Body": {
+      "ORGUNITSERVICES": [
+        {
+          "ORG_UNIT": "122001",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "122001",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "122001",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "122002",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "122003",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "122004",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "122005",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "123001",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "123001",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "123001",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "123001",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "101",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231001",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231001",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231001",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231002",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231002",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231002",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231003",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231003",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231003",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231004",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231005",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231006",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231007",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231008",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231009",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231011",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231012",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231012",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231012",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231013",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231013",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231013",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231014",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231014",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231014",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231015",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231015",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231015",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231016",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231016",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231016",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231017",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231017",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231017",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231018",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231018",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231018",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231019",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231019",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231019",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231020",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231020",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231020",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231021",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231021",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231021",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231022",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231022",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231022",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231023",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231023",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231023",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231024",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231024",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231024",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231025",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231025",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231025",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231026",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231026",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231026",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231027",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231028",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231028",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231028",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231030",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231030",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231030",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231031",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231032",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231033",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231035",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231036",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231037",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231038",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231039",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231040",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231041",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231041",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231041",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231042",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231043",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231043",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231043",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231044",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231044",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231044",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231045",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231046",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231046",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231046",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231047",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231047",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231047",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231048",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231048",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231048",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231049",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231049",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231049",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231050",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231050",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231050",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231051",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231051",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231051",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231052",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231052",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231052",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231053",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231053",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231053",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231054",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231054",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231054",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231055",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231056",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231056",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231056",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231057",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231057",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231057",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231058",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231058",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231058",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231059",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231059",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231059",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231060",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231060",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231060",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231061",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231061",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "3",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231061",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "22",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231062",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231063",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231064",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231065",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231066",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231067",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231068",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231069",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231070",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231071",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231072",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231073",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231074",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231075",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231076",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        },
+        {
+          "ORG_UNIT": "1231077",
+          "LANGUAGE": "1",
+          "SERVICE_CODE": "1",
+          "ACTIVITY_STATUS": "1",
+          "Language": "1"
+        }
+      ]
+    }
+  },
+  "Status": {
+    "ErrorCode": 0,
+    "ErrorMessage": "OK",
+    "DateTime": "2024-11-27T21:06:49.002642+01:00"
+  }
+}
