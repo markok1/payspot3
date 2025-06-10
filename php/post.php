@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 
 header('Content-Type: application/json');
 
-$mailto = "office@payspot.me";
+$mailto = "pos@payspot.me";
 
 // Get posted data safely
 $name = $_POST['name'] ?? '';

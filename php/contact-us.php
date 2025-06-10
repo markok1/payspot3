@@ -5,48 +5,46 @@ ini_set('display_errors', 1);
 
 header('Content-Type: application/json');
 
-// Set your email
-$mailto = "pos@payspot.me";
+$mailto = "office@payspot.me";  //My email address
+$fromEmail = $_POST['email'];  // Ensure this is set
 
-// Get posted form data
-$name = $_POST['name'] ?? '';
-$email = $_POST['email'] ?? '';
-$company = $_POST['company'] ?? '';
-$pib = $_POST['pib'] ?? '';
-$subject = $_POST['subject'] ?? 'Nema teme';
-$phone = $_POST['phone'] ?? '';
-$message = $_POST['message'] ?? '';
+//getting customer data
+$name = $_POST['name'];
+$email = $_POST['email'];
+$subject = $_POST['subject'];
+$message = $_POST['message'];
 
-// Prepare email content
-$messageBody = "Ime: $name\n"
-             . "Email: $email\n"
-             . "Naziv firme: $company\n"
-             . "PIB: $pib\n"
-             . "Telefon: $phone\n\n"
-             . "Poruka:\n$message";
 
-$messageBody2 = "Poštovani $name,\n\n"
-              . "Vaš zahtev nam je stigao. Odgovorićemo Vam u najkraćem mogućem roku.\n\n"
-              . "Vaša poruka:\n\"$message\"\n\n"
-              . "Srdačan pozdrav,\nTim PaySpot";
+$subject2 = "Potvrda: Vaš zahtev je poslat sa payspot.me"; // For customer confirmation
 
-// Email headers
-$headers = "From: $email";
-$headers2 = "From: $mailto";
+//Email body I will receive
+$messageBody = "Klijent: " . "\n" . $name . "\n\n" .
+"Email: " . "\n" . $email . "\n\n" .
+"Poruka klijenta: " . "\n" . $message;
 
-// Send emails
-$result1 = mail($mailto, $subject, $messageBody, $headers); // to admin
-$result2 = mail($email, "Potvrda: Vaš zahtev je poslat sa payspot.me", $messageBody2, $headers2); // to client
+//Message for client confirmation
+$messageBody2 = "Postovani " . $name . "\n"
+. "Vaš zahtev nam je stigao. Odgovorićemo Vam u najkraćem mogućem roku" . "\n\n"
+. "Vaša poruka je: " . "\n" . "'" . $message . "'" . "\n\n";
 
-// JSON response
-$response = [];
+//Email headers
+$headers = "From: " . $fromEmail; // Client email, I will receive
+$headers2 = "From: " . $mailto; // This will receive client
+
+//PHP mailer function
+
+ $result1 = mail($mailto, $subject, $messageBody, $headers); // This email sent to My address
+ $result2 = mail($fromEmail, $subject2, $messageBody2, $headers2); //This confirmation email to client
+
+ // JSON response
+$response = array();
 
 if ($result1 && $result2) {
     $response['status'] = 'success';
-    $response['message'] = 'Poruka uspešno poslata.';
+    $response['message'] = 'Emails sent successfully';
 } else {
     $response['status'] = 'error';
-    $response['message'] = 'Slanje poruke nije uspelo.';
+    $response['message'] = 'Failed to send emails';
 }
 
 echo json_encode($response);
