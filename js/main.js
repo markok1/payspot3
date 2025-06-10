@@ -346,7 +346,7 @@ $(document).ready(function () {
 
   $(".post-submit-contact2").click(function (e) {
     e.preventDefault();
-  
+
     if ($(".quote-form-inputs-contact")[0].checkValidity()) {
       var contact_form = {
         name: $(".contact-name").val() + " " + $(".contact-lastname").val(),
@@ -357,9 +357,9 @@ $(document).ready(function () {
         phone: $(".contact-phone").val(),
         message: $(".contact-message-box").val(),
       };
-  
+
       console.log("Contact Form:", contact_form);
-  
+
       $.ajax({
         type: "POST",
         url: "php/post.php", // osiguraj da fajl postoji
@@ -367,7 +367,7 @@ $(document).ready(function () {
         dataType: "json",
         success: function (response) {
           console.log("AJAX Response:", response);
-  
+
           if (response.status === "success") {
             $(".form-messege").text("Poruka uspešno poslata!");
           } else {
@@ -380,7 +380,7 @@ $(document).ready(function () {
           $(".form-messege").text("Došlo je do greške pri slanju.");
         },
       });
-  
+
       // Clear inputs
       $(".quote-form-inputs-contact input").val("");
       $(".quote-form-inputs-contact textarea").val("");
@@ -399,4 +399,4 @@ $(document).ready(function () {
       );
     }
   });
-  
+});
