@@ -1575,7 +1575,8 @@ ul li a img {
 .agent-box:nth-child(6) {
   transition-delay: 1000ms;
 }
-.agent-box i {
+.agent-box i,
+.agent-box svg {
   color: #404040;
   font-size: 62px;
   padding-top: 10px;
@@ -1583,7 +1584,8 @@ ul li a img {
   max-width: 70px;
   width: 100%;
 }
-.agent-box i::before {
+.agent-box i::before,
+.agent-box svg::before {
   display: flex;
   max-width: 70px;
   width: 100%;

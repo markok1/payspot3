@@ -78,7 +78,8 @@
   &:nth-child(6) {
     transition-delay: 1000ms;
   }
-  i {
+  i,
+  svg {
     color: $primary;
     font-size: 62px;
     padding-top: 10px;
