@@ -1512,10 +1512,22 @@ ul li a img {
 }
 .agent-top h1 span {
   color: #e10000;
+}
+.agent-top p,
+.agent-top strong {
+  margin-bottom: 15px;
+}
+.agent-top p:last-child,
+.agent-top strong:last-child {
+  margin-bottom: 0px;
+}
+.agent-top strong {
   display: block;
 }
-.agent-top p {
-  margin-bottom: 15px;
+
+.font-big-agent {
+  font-size: 25px;
+  line-height: 28px;
 }
 
 .subtitle {
@@ -1618,8 +1630,9 @@ ul li a img {
     font-size: 30px;
     line-height: 34px;
   }
-  .agent-top h1 span {
-    display: flex;
+  .font-big-agent {
+    font-size: 20px;
+    line-height: 23px;
   }
 }
 @media (max-width: 375px) {
