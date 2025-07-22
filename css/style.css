@@ -1575,6 +1575,13 @@ ul li a img {
 .agent-box:nth-child(6) {
   transition-delay: 1000ms;
 }
+.agent-box .icon-agent {
+  max-width: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+}
 .agent-box i,
 .agent-box svg {
   color: #404040;
@@ -1589,6 +1596,11 @@ ul li a img {
   display: flex;
   max-width: 70px;
   width: 100%;
+}
+.agent-box svg {
+  max-width: 50px;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 .agent-box .box-content {
   display: flex;
