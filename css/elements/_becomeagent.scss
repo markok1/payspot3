@@ -53,8 +53,8 @@
 .agent-boxes {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  row-gap: 30px;
+  justify-content: center;
+  gap: 30px;
   padding-top: 40px;
 }
 .agent-box {
@@ -131,7 +131,7 @@
 }
 @media (max-width: 1024px) {
   .agent-box {
-    width: calc(50% - 10px);
+    width: calc(50% - 20px);
   }
 }
 @media (max-width: 600px) {
